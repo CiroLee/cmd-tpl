@@ -11,6 +11,15 @@ npm run dev
 npm run build
 ```
 
+### uses      
+```shell
+git clone https://github.com/CiroLee/cmd-tpl
+```
+then do the list:     
+- modify the name field of package.json to your own
+- modify the bin filed of package.json to your own
+- modify the LICENSE to your own
+
 # stacks
 
 | name  | description                                           | link                                |
