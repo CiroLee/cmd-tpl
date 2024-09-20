@@ -18,7 +18,7 @@ function showHelper() {
   const helps = `Usage
 
 -v,--version        output the version number
--h,--help           show help info
+-h,--help           show help information
   `;
   console.log(helps);
 }
