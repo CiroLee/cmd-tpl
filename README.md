@@ -1,21 +1,28 @@
 # cmd-tpl
 
-> Command line cli template written by typescript, built by tsup      
+> Command line cli template written by typescript, built by tsup
 
-# develop      
+## develop
+
 ```shell
 npm run dev
 ```
-# build
+
+## test
+
+```shell
+# npx cmd-demo -v
+npx <your bin command> -v // this will print the version
+```
+
+## build
+
 ```shell
 npm run build
 ```
 
-### uses      
-```shell
-git clone https://github.com/CiroLee/cmd-tpl
-```
-then do the list:     
+when you download the repository, you need to do the following:
+
 - modify the name field of package.json to your own
 - modify the bin filed of package.json to your own
 - modify the LICENSE to your own

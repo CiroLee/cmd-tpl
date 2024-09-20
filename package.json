@@ -10,38 +10,37 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "./*.{js,ts}": [
-      "eslint --config .eslintrc"
-    ]
+    "prepare": "husky"
   },
   "keywords": [
     "cmd",
     "cli",
     "template",
-    "tpl"
+    "tpl",
+    "terminal"
   ],
-  "author": "CiroLee<ciromail@126.com>",
+  "author": "CiroLee<https://github.com/CiroLee>",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.4.2",
-    "@types/node": "^18.11.18",
-    "@types/yargs": "^17.0.19",
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
-    "commitlint": "^17.4.2",
-    "eslint": "^8.32.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.1.0",
-    "prettier": "^2.8.3",
-    "tsup": "^6.5.0",
-    "typescript": "^4.9.4"
+    "@commitlint/config-conventional": "^19.5.0",
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^22.5.5",
+    "@types/yargs": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "commitlint": "^19.5.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
-    "ora": "^6.1.2",
-    "yargs": "^17.6.2"
+    "chalk": "^5.3.0",
+    "ora": "^8.1.0",
+    "yargs": "^17.7.2"
   }
 }
